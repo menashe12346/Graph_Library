@@ -100,10 +100,9 @@ namespace ariel {
 
         // Multiplication and equal operator between graphs
         void operator/=(const Graph& other);
-
-        // << operator to print the graph matrix
-        friend std::ostream& operator<<(std::ostream& os, const Graph& graph);
     };
+        // << operator to print the graph matrix
+        std::ostream& operator<<(std::ostream& os, const Graph& graph);
 }
 
 #endif
