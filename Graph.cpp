@@ -332,6 +332,7 @@ namespace ariel {
             }
             os << "]" << std::endl;
         }
+        os << "\n" << std::endl;
 
         return os;
     }
