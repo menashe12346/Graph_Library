@@ -316,7 +316,10 @@ namespace ariel {
         *this = *this / other;
     }
 
-
+    /// @brief prints the graph
+    /// @param os reference to an existing ostream object( in our case its std::cout for console output)
+    /// @param graph prints the graph
+    /// @return reference to an ostream object (ostream represent the output streams, such as writing data to the console, files, or other output devices.)
     ostream& operator<<(ostream& os, const Graph& graph) {
         int size = graph.matrix.size();
 
