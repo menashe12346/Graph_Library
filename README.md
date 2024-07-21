@@ -91,6 +91,6 @@ The `Algorithms` class contains static methods for performing various graph algo
 If you have any questions or suggestions, feel free to reach out!
 
 - **GitHub**: [menashe12346](https://github.com/menashe12346)
-- **Email**: [your-email@example.com](mailto:menashe7676@gmail.com)
+- **Email**: [menashe7676@gmail.com](mailto:menashe7676@gmail.com)
 
 Thank you for visiting our repository! We hope you find it useful and informative. Happy coding! 😊
