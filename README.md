@@ -5,7 +5,7 @@ Welcome to the **Graph Implementation** repository! This repository focuses on p
 
 ## Table of Contents 📑
 
-- [Introduction](#introduction)
+- [Introduction](##introduction)
 - [Installation](#installation)
 - [Usage](#usage)
 - [Graph Class](#graph-class)
