@@ -1,17 +1,32 @@
-### Introduction
 
-The Graph Operations Library focuses on providing capabilities for working with graphs, including loading, printing, and performing various algorithms on graphs.
+# Graph Implementation Repository 🌐
 
-### Installation
+Welcome to the **Graph Implementation** repository! This repository focuses on providing capabilities for working with graphs, including loading, printing, and performing various algorithms on graphs.
 
-To use this library, include the provided header files (`Graph.hpp` and `Algorithms.hpp`) in your C++ project.
+## Table of Contents 📑
+
+- [Introduction](#introduction)
+- [Installation](#installation)
+- [Usage](#usage)
+- [Graph Class](#graph-class)
+- [Algorithms Class](#algorithms-class)
+- [Implementation Details](#implementation-details)
+- [Contact](#contact)
+
+## Introduction 📝
+
+The Graph Operations Library offers a comprehensive set of tools to work with graphs in C++. It includes functionalities for loading graphs, printing graphs, and performing various algorithms.
+
+## Installation 🛠️
+
+To use this library, include the provided header files (`Graph.hpp` and `Algorithms.hpp`) in your C++ project:
 
 ```cpp
 #include "Graph.hpp"
 #include "Algorithms.hpp"
 ```
 
-### Usage
+## Usage 🚀
 
 Here's a brief overview of how to use the library:
 
@@ -38,9 +53,9 @@ Here's a brief overview of how to use the library:
     ariel::Algorithms::negativeCycle(graph);
     ```
 
-### Graph Class
+## Graph Class 🌲
 
-The `Graph` class provides functionality for representing and working with graphs. It includes methods for loading and printing graphs,  as well as various operators for graph manipulation:
+The `Graph` class provides functionality for representing and working with graphs. It includes methods for loading and printing graphs, as well as various operators for graph manipulation:
 
 - `operator=`: Assignment operator for assigning one graph to another.
 - `operator+`: Addition operator for adding two graphs.
@@ -56,8 +71,7 @@ The `Graph` class provides functionality for representing and working with graph
 - Multiplication and Division Operators (`*, *=, /, /=`): Operators for multiplying and dividing graphs by scalar values and other graphs.
 - `operator<<`: Output stream operator to print the graph matrix.
 
-
-### Algorithms Class
+## Algorithms Class 🔍
 
 The `Algorithms` class contains static methods for performing various graph algorithms, including:
 
@@ -67,17 +81,16 @@ The `Algorithms` class contains static methods for performing various graph algo
 - Bipartiteness check (`isBipartite`)
 - Negative cycle detection (`negativeCycle`)
 
-### Implementation Details
+## Implementation Details 🛠️
 
-The `Graph.cpp` file contains a class representing a graph. The class includes the following methods:
+- **Graph.cpp**: Contains the `Graph` class, which includes methods like `loadGraph` and `printGraph`.
+- **Algorithms.cpp**: Contains implementations for various graph algorithms, such as `isConnected`, `shortestPath`, `isContainsCycle`, `isBipartite`, and `negativeCycle`.
 
-- `loadGraph`: Accepts an adjacency matrix and loads it into the graph.
-- `printGraph`: Prints the representation of the graph (format of your choice, see example in `Demo.cpp`).
+## Contact 📧
 
-The `Algorithms.cpp` file contains implementations for graph algorithms, including:
+If you have any questions or suggestions, feel free to reach out!
 
-- `isConnected(g)`: Determines if the graph is connected (returns 1 if connected, otherwise 0).
-- `shortestPath(g, start, end)`: Finds the shortest path between two vertices in the graph. If there's no such path, returns -1.
-- `isContainsCycle(g)`: Detects and prints any cycle in the graph. Returns 0 if no cycle exists.
-- `isBipartite(g)`: Determines if the graph can be partitioned into a bipartite graph. Returns 0 if not possible.
-- `negativeCycle(g)`: Finds a negative cycle in the graph (a cycle with negative weights). Prints "No negative cycle detected" if none exists.
+- **GitHub**: [menashe12346](https://github.com/menashe12346)
+- **Email**: [your-email@example.com](mailto:menashe7676@gmail.com)
+
+Thank you for visiting our repository! We hope you find it useful and informative. Happy coding! 😊
